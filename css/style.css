@@ -197,6 +197,13 @@ p {
   width: 100%;
   padding: 0.5rem;
 }
+#contact .map {
+  background-image: url("../img/man-holding-mug-in-front-of-laptop-842548.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* footer  */
 #main-footer .container p {
   padding: 0.5rem 0;
