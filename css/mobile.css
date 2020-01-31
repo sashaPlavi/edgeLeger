@@ -10,3 +10,27 @@
   margin-right: 1.3rem;
   align-self: center;
 }
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+  #clients .items {
+    flex-direction: column;
+  }
+  #clients .items img {
+    padding-bottom: 2rem;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .map {
+    display: none;
+  }
+}
